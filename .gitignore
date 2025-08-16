@@ -57,7 +57,7 @@ desktop.ini
 *.tmp
 
 # Large data files (add specific large files if needed)
-*.csv
+# *.csv - commented out to include analysis results
 *.xlsx
 *.pkl
 
