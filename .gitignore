@@ -1,0 +1,73 @@
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+
+# PDF output (comment out if you want to track PDFs)
+# *.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Analysis results (temporary)
+analysis/results/temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Large data files (add specific large files if needed)
+*.csv
+*.xlsx
+*.pkl
+
+# Personal notes (if you have private notes)
+private_notes/
+personal/
+
+# Claude Code settings
+.claude/
+
+# Executable files
+*.exe
+*.msi

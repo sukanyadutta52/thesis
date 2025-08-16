@@ -1,0 +1,280 @@
+{
+  "manipulation_categories": {
+    "temporal_pressure": {
+      "description": "Creating urgency through time constraints",
+      "keywords": [
+        "limited time", "ending soon", "last chance", "today only",
+        "hurry", "now", "immediately", "don't miss", "while supplies last",
+        "flash sale", "countdown", "expires", "deadline", "act now",
+        "final hours", "closing soon", "time sensitive", "urgent"
+      ],
+      "intensity_weight": 0.8
+    },
+    "scarcity_claims": {
+      "description": "Suggesting limited availability",
+      "keywords": [
+        "exclusive", "limited edition", "rare", "unique", "only",
+        "few left", "selling out", "almost gone", "limited stock",
+        "one of a kind", "hard to find", "special release", "VIP only",
+        "members only", "invitation only", "limited quantity"
+      ],
+      "intensity_weight": 0.7
+    },
+    "authority_appeals": {
+      "description": "Using expert or scientific credibility",
+      "keywords": [
+        "expert", "proven", "scientific", "clinical", "dermatologist",
+        "recommended", "certified", "award-winning", "tested", "approved",
+        "endorsed", "research", "studies show", "doctors", "professionals",
+        "laboratory", "patented", "FDA", "medical grade", "clinically proven"
+      ],
+      "intensity_weight": 0.6
+    },
+    "social_proof": {
+      "description": "Leveraging popularity and social validation",
+      "keywords": [
+        "bestseller", "popular", "trending", "everyone", "thousands",
+        "loved by", "favorite", "must-have", "viral", "top rated",
+        "customer favorite", "5 stars", "highly rated", "most wanted",
+        "sold out", "back in stock", "waitlist", "#1", "award winner"
+      ],
+      "intensity_weight": 0.5
+    },
+    "fear_triggers": {
+      "description": "Exploiting fears and anxieties",
+      "keywords": [
+        "worried", "concerned", "damage", "protect", "prevent", "risk",
+        "danger", "harmful", "threat", "warning", "aging", "wrinkles",
+        "loss", "vulnerable", "exposed", "defenseless", "unprotected",
+        "deteriorate", "decline", "irreversible"
+      ],
+      "intensity_weight": 0.9
+    },
+    "aspiration_appeals": {
+      "description": "Promising transformation and ideal outcomes",
+      "keywords": [
+        "dream", "perfect", "ideal", "transform", "achieve", "success",
+        "luxury", "elite", "prestige", "flawless", "radiant", "gorgeous",
+        "stunning", "breakthrough", "revolutionary", "miracle", "ultimate",
+        "premium", "superior", "exceptional", "extraordinary"
+      ],
+      "intensity_weight": 0.6
+    },
+    "inadequacy_triggers": {
+      "description": "Highlighting problems and flaws",
+      "keywords": [
+        "problem", "issue", "concern", "flaw", "imperfection", "tired",
+        "dull", "damaged", "broken", "weak", "inadequate", "lacking",
+        "insufficient", "poor", "inferior", "deficient", "subpar",
+        "disappointing", "unsatisfactory", "struggling"
+      ],
+      "intensity_weight": 0.8
+    },
+    "exclusivity_markers": {
+      "description": "Creating in-group/out-group dynamics",
+      "keywords": [
+        "insider", "member", "VIP", "special access", "private",
+        "invitation", "selected", "chosen", "privileged", "elite club",
+        "inner circle", "exclusive group", "limited access", "by invitation",
+        "members first", "priority access", "special privilege"
+      ],
+      "intensity_weight": 0.6
+    },
+    "scientific_mimicry": {
+      "description": "Using pseudo-scientific language",
+      "keywords": [
+        "formula", "technology", "innovation", "breakthrough", "advanced",
+        "complex", "proprietary", "molecule", "peptide", "active",
+        "bioactive", "micro", "nano", "cellular", "DNA", "genes",
+        "collagen", "hyaluronic", "retinol", "acid", "serum"
+      ],
+      "intensity_weight": 0.5
+    },
+    "emotional_blackmail": {
+      "description": "Guilt and shame-based manipulation",
+      "keywords": [
+        "deserve", "owe yourself", "worth it", "treat yourself",
+        "guilty", "shame", "regret", "miss out", "left behind",
+        "falling behind", "not enough", "should", "must", "need to",
+        "have to", "supposed to", "expected", "responsible"
+      ],
+      "intensity_weight": 0.7
+    }
+  },
+  "emotion_categories": {
+    "fear": {
+      "description": "Fear-based emotional appeals",
+      "linguistic_markers": [
+        "protect", "defend", "guard", "shield", "prevent",
+        "avoid", "escape", "fight", "combat", "battle"
+      ],
+      "intensity_indicators": [
+        "!", "urgent", "critical", "serious", "severe"
+      ]
+    },
+    "guilt": {
+      "description": "Guilt-inducing language",
+      "linguistic_markers": [
+        "should", "ought", "responsibility", "duty", "obligation",
+        "neglect", "ignore", "fail", "disappoint", "let down"
+      ],
+      "intensity_indicators": [
+        "really", "truly", "honestly", "seriously"
+      ]
+    },
+    "desire": {
+      "description": "Desire and wanting triggers",
+      "linguistic_markers": [
+        "want", "crave", "long for", "wish", "yearn",
+        "tempting", "irresistible", "captivating", "alluring"
+      ],
+      "intensity_indicators": [
+        "ultimate", "perfect", "dream", "ideal"
+      ]
+    },
+    "hope": {
+      "description": "Hope and optimism appeals",
+      "linguistic_markers": [
+        "possibility", "potential", "promise", "future", "tomorrow",
+        "new beginning", "fresh start", "transformation", "renewal"
+      ],
+      "intensity_indicators": [
+        "finally", "at last", "breakthrough", "revolutionary"
+      ]
+    },
+    "pride": {
+      "description": "Pride and status appeals",
+      "linguistic_markers": [
+        "proud", "accomplished", "successful", "winner", "achiever",
+        "superior", "best", "top", "leading", "champion"
+      ],
+      "intensity_indicators": [
+        "exclusive", "elite", "premium", "luxury"
+      ]
+    },
+    "shame": {
+      "description": "Shame-inducing language",
+      "linguistic_markers": [
+        "embarrassed", "ashamed", "humiliated", "exposed", "revealed",
+        "hide", "cover", "conceal", "mask", "disguise"
+      ],
+      "intensity_indicators": [
+        "never again", "no more", "stop", "end"
+      ]
+    },
+    "joy": {
+      "description": "Joy and happiness appeals",
+      "linguistic_markers": [
+        "happy", "joyful", "delighted", "pleased", "satisfied",
+        "celebrate", "enjoy", "love", "adore", "cherish"
+      ],
+      "intensity_indicators": [
+        "amazing", "incredible", "fantastic", "wonderful"
+      ]
+    },
+    "anger": {
+      "description": "Anger and frustration triggers",
+      "linguistic_markers": [
+        "frustrated", "annoyed", "fed up", "tired of", "sick of",
+        "fight back", "take control", "enough", "stop accepting"
+      ],
+      "intensity_indicators": [
+        "finally", "now", "take action", "fight"
+      ]
+    }
+  },
+  "sector_specific_patterns": {
+    "fashion": {
+      "dominant_strategies": [
+        "exclusivity_markers",
+        "aspiration_appeals",
+        "social_proof"
+      ],
+      "common_emotions": ["desire", "pride", "joy"],
+      "unique_markers": [
+        "couture", "haute", "atelier", "artisan", "heritage",
+        "timeless", "iconic", "signature", "collection", "season"
+      ]
+    },
+    "fitness": {
+      "dominant_strategies": [
+        "inadequacy_triggers",
+        "aspiration_appeals",
+        "temporal_pressure"
+      ],
+      "common_emotions": ["fear", "hope", "pride"],
+      "unique_markers": [
+        "transformation", "results", "progress", "goals", "performance",
+        "strength", "endurance", "recovery", "nutrition", "workout"
+      ]
+    },
+    "skincare": {
+      "dominant_strategies": [
+        "authority_appeals",
+        "scientific_mimicry",
+        "fear_triggers"
+      ],
+      "common_emotions": ["fear", "hope", "shame"],
+      "unique_markers": [
+        "anti-aging", "rejuvenate", "restore", "repair", "hydrate",
+        "brighten", "smooth", "firm", "plump", "glow"
+      ]
+    }
+  },
+  "intensity_scoring": {
+    "calculation_method": "weighted_sum",
+    "factors": {
+      "keyword_frequency": 0.3,
+      "keyword_variety": 0.2,
+      "emotional_intensity": 0.25,
+      "repetition": 0.15,
+      "positioning": 0.1
+    },
+    "thresholds": {
+      "low": [0, 0.33],
+      "medium": [0.34, 0.66],
+      "high": [0.67, 1.0]
+    }
+  },
+  "multimodal_indicators": {
+    "visual_manipulation": {
+      "before_after": "Transformation imagery",
+      "authority_figures": "Doctors, scientists in imagery",
+      "social_proof_visual": "Crowds, popularity indicators",
+      "scarcity_visual": "Limited stock bars, countdown timers",
+      "luxury_visual": "Gold, marble, minimalist aesthetics"
+    },
+    "typography_manipulation": {
+      "urgency_fonts": ["bold", "red", "flashing", "large"],
+      "authority_fonts": ["serif", "clean", "medical-style"],
+      "luxury_fonts": ["thin", "elegant", "spaced"]
+    }
+  },
+  "analysis_guidelines": {
+    "context_consideration": true,
+    "sarcasm_detection": true,
+    "negation_handling": true,
+    "intensity_modifiers": [
+      "very", "extremely", "absolutely", "completely",
+      "totally", "utterly", "particularly", "especially"
+    ],
+    "hedging_markers": [
+      "may", "might", "could", "possibly", "perhaps",
+      "somewhat", "slightly", "relatively", "fairly"
+    ]
+  },
+  "ethical_assessment": {
+    "manipulation_severity": {
+      "low": "Information-based persuasion",
+      "medium": "Emotional appeals without deception",
+      "high": "Exploitative or deceptive practices"
+    },
+    "red_flags": [
+      "false_claims",
+      "hidden_costs",
+      "fake_scarcity",
+      "manufactured_urgency",
+      "exploiting_vulnerabilities"
+    ]
+  }
+}

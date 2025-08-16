@@ -1,0 +1,121 @@
+
+Skincare_Cosmetics SECTOR ANALYSIS
+============================================================
+
+Brands analyzed: 11
+Average text length: 133079 characters
+
+TOP MANIPULATION STRATEGIES:
+  - Scientific Mimicry: 125 occurrences
+  - Fear Triggers: 93 occurrences
+  - Aspiration Appeals: 88 occurrences
+  - Authority Appeals: 87 occurrences
+  - Inadequacy Triggers: 65 occurrences
+
+TOP EMOTIONS DETECTED:
+  - Fear: 52 markers
+  - Pride: 41 markers
+  - Hope: 40 markers
+  - Joy: 38 markers
+  - Shame: 37 markers
+
+BRAND PROFILES:
+
+CERAVE:
+  Text length: 211137 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 16
+    - Authority Appeals: 13
+    - Fear Triggers: 11
+
+CHANEL:
+  Text length: 123745 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Aspiration Appeals: 13
+    - Authority Appeals: 10
+
+ESTEELAUDER:
+  Text length: 8191 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Hope
+  Top tactics:
+    - Scientific Mimicry: 5
+    - Aspiration Appeals: 4
+    - Temporal Pressure: 3
+
+EUCERINUS:
+  Text length: 92318 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Fear Triggers: 12
+    - Inadequacy Triggers: 10
+
+GERNIER:
+  Text length: 13911 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Pride
+  Top tactics:
+    - Scientific Mimicry: 8
+    - Authority Appeals: 5
+    - Aspiration Appeals: 5
+
+LAMER:
+  Text length: 12574 chars
+  Dominant strategy: Authority Appeals
+  Dominant emotion: Hope
+  Top tactics:
+    - Authority Appeals: 8
+    - Fear Triggers: 8
+    - Scientific Mimicry: 7
+
+LOREAL:
+  Text length: 18851 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 5
+    - Scientific Mimicry: 4
+    - Aspiration Appeals: 3
+
+NIVEA:
+  Text length: 547141 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 18
+    - Scientific Mimicry: 17
+    - Authority Appeals: 15
+
+OLAY:
+  Text length: 33348 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Pride
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Aspiration Appeals: 10
+    - Authority Appeals: 7
+
+PIXIBEAUTY:
+  Text length: 282648 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Joy
+  Top tactics:
+    - Aspiration Appeals: 14
+    - Scientific Mimicry: 12
+    - Inadequacy Triggers: 10
+
+THEORDINARY:
+  Text length: 120008 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Fear Triggers: 13
+    - Authority Appeals: 10
