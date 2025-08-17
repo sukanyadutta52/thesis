@@ -1,10 +1,15 @@
 # LaTeX temporary files
+latex/build/
 *.aux
 *.bbl
 *.bcf
 *.blg
+*.brf
 *.fdb_latexmk
 *.fls
+*.idx
+*.ilg
+*.ind
 *.log
 *.out
 *.run.xml
