@@ -13,6 +13,7 @@ build:
 clean:
 	cd latex && latexmk -C -outdir=build
 	cd latex && rm -f thesis.pdf
+	cd latex && rm -rf build
 
 # Clean and rebuild
 rebuild: clean build
