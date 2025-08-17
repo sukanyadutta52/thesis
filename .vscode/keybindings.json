@@ -1,0 +1,8 @@
+[
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "LaTeX: Clean and Compile Thesis",
+        "when": "resourceExtname == .tex"
+    }
+]

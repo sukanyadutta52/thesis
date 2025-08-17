@@ -23,8 +23,8 @@ latex/build/
 *.dvi
 *.ps
 
-# PDF output (comment out if you want to track PDFs)
-# *.pdf
+# PDF output - ignore thesis PDF
+latex/thesis.pdf
 
 # Python
 __pycache__/
@@ -44,8 +44,8 @@ venv/
 # Analysis results (temporary)
 analysis/results/temp/
 
-# IDE
-.vscode/
+# IDE (VS Code configuration is now tracked)
+# .vscode/
 .idea/
 *.swp
 *.swo
