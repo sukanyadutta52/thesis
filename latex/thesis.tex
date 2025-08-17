@@ -25,8 +25,7 @@
 \usepackage[colorlinks=true,
 		    linkcolor=refcyan,
             urlcolor=refcyan,
-            citecolor=refcyan,
-            backref=page]{hyperref}              %Creates hyperlinks in cross references
+            citecolor=refcyan]{hyperref}              %Creates hyperlinks in cross references
 \usepackage{textcomp}           
 \usepackage{url}
 
@@ -116,7 +115,16 @@
 \usepackage{float}						%Helps to place figures, tables, etc. 
 \usepackage{verbatim}					%Permits pre-formated text insertion
 \usepackage{latexsym}					%Extra symbols
-\usepackage[square,numbers,sort&compress]{natbib}		%Calls bibliography commands 
+% \usepackage[square,numbers,sort&compress]{natbib}		%Replaced with biblatex
+\usepackage[backend=biber,style=numeric,backref=true,sorting=none,pagetracker=true,backrefstyle=three+,citecounter=true]{biblatex}
+\addbibresource{bibliography/references.bib}
+
+% Force biblatex to show backreferences in the numeric style 
+\renewbibmacro*{finentry}{%
+  \iffieldundef{pageref}
+    {}
+    {\space\printtext[parens]{\printfield{pageref}}}%
+  \finentry} 
 \usepackage[english]{babel}		%For languages characters and hyphenation
 \usepackage{memhfixc}					%Must be used on memoir document class after hyperref
 \usepackage{microtype}					%Makes pdf look better.
@@ -184,13 +192,12 @@
 
 % Bibliography
 \backmatter
-\bibliographystyle{abbrv} 
 \refstepcounter{chapter}
 
 % Remove bibliography indentation  
 \setlength{\bibhang}{0pt}
 
-\bibliography{bibliography/references}
+\printbibliography[title=Bibliography]
 \clearpage
 
 \end{document}
