@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Rebuild Thesis",
+            "type": "shell",
+            "command": "make",
+            "args": ["rebuild"],
+            "options": {
+                "cwd": "${workspaceFolder}/latex"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Complete clean rebuild using cross-platform Makefile"
+        },
+        {
+            "label": "Build Thesis",
+            "type": "shell",
+            "command": "make",
+            "args": ["build"],
+            "options": {
+                "cwd": "${workspaceFolder}/latex"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Build thesis using Makefile"
+        },
+        {
+            "label": "Clean Thesis",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"],
+            "options": {
+                "cwd": "${workspaceFolder}/latex"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "detail": "Clean all build files using Makefile"
+        }
+    ]
+}

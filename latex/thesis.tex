@@ -1,0 +1,349 @@
+% Professional thesis document using memoir class
+\RequirePackage[l2tabu]{nag}		% Warns for incorrect (obsolete) LaTeX usage
+
+% Memoir class loads useful packages by default (see manual).
+\documentclass[a4paper,12pt,leqno,openbib,oneside,reqno]{memoir}
+
+\usepackage{subcaption}
+\DisemulatePackage{setspace} %for linespacing 
+\usepackage{setspace} 
+
+% Adding metadata:
+\usepackage{datetime}
+\usepackage{ifpdf}
+\usepackage{relsize}
+\usepackage[norule, bottom]{footmisc} %to remove the footer's rule 
+\usepackage[skip=0.5cm, font={footnotesize}]{caption}  %to adjust the fontsize and figure-caption spacing
+\usepackage[labelformat=simple]{subcaption}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+
+\usepackage{color}                    				%Creates coloured text and background
+\usepackage{xcolor}
+\usepackage[absolute,overlay]{textpos}
+\definecolor{refblue}{rgb}{0,0.3,0.8}
+\definecolor{refcyan}{rgb}{0.0, 0.2, 1}
+\definecolor{txtmod}{rgb}{0,0,0}
+% TU Darmstadt colors
+\definecolor{emblemcolor}{HTML}{B90F22} % tuda red
+%\definecolor{emblemcolor}{HTML}{008877} % tuda green
+\definecolor{tocgray}{HTML}{333333}
+
+\usepackage[colorlinks=true,
+		        linkcolor=emblemcolor,
+            urlcolor=refcyan,
+            citecolor=emblemcolor]{hyperref}              %Creates hyperlinks in cross references
+\usepackage{textcomp}           
+\usepackage{url}
+
+% Better page layout for A4 paper, see memoir manual.
+\settrimmedsize{297mm}{210mm}{*}
+\setlength{\trimtop}{0pt} 
+\setlength{\trimedge}{\stockwidth} 
+\addtolength{\trimedge}{-\paperwidth} 
+\settypeblocksize{620pt}{448.13pt}{*} 
+\setlrmarginsandblock{3.5cm}{2.5cm}{*}
+\setulmarginsandblock{3.5cm}{3.5cm}{*} 
+
+\setmarginnotes{17pt}{51pt}{\onelineskip} 
+\setheadfoot{2\onelineskip}{2\onelineskip} 
+\setheaderspaces{*}{2\onelineskip}{*} 
+\checkandfixthelayout
+
+% Allow more flexible spacing to prevent overfull boxes
+\tolerance=1000
+\emergencystretch=3pt
+\hbadness=10000
+\vbadness=10000
+
+\frenchspacing
+% Font with math support: Book Antiqua (using Palatino as substitute)
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+
+% UoB guidelines: Text should be in double or 1.5 line spacing
+\OnehalfSpacing 
+
+% Add paragraph spacing
+\setlength{\parskip}{0.5\baselineskip}
+\setlength{\parindent}{0pt}
+
+% Sets numbering division level
+\setsecnumdepth{subsection} 
+\maxsecnumdepth{subsubsection}
+
+% Custom chapter style
+\usepackage{calc,soul}
+\makeatletter 
+\newlength\dlf@normtxtw 
+\setlength\dlf@normtxtw{\textwidth} 
+\newsavebox{\feline@chapter} 
+\newcommand\feline@chapter@marker[1][4cm]{%
+	\sbox\feline@chapter{% 
+		\resizebox{!}{#1}{\fboxsep=1pt%
+			\colorbox{emblemcolor}{\color{white}\rmfamily\thechapter}% 
+		}}%
+		\rotatebox{90}{% 
+			\resizebox{%
+				\heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}% 
+			{!}{\scshape\so\@chapapp}}\quad%
+		\raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}%
+} 
+\newcommand\feline@chm[1][4cm]{%
+	\sbox\feline@chapter{\feline@chapter@marker[#1]}% 
+	\makebox[0pt][r]{% 
+		\usebox\feline@chapter%
+	}}
+\makechapterstyle{daleifmodif}{%
+	\renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so} 
+	\renewcommand\chaptitlefont{\normalfont\LARGE\bfseries\rmfamily\scshape} 
+	\renewcommand\chapternamenum{} 
+	\renewcommand\printchaptername{} 
+	\renewcommand\printchapternum{\null\hfill\feline@chm[2.5cm]\hspace*{0pt}\par} 
+	\renewcommand\afterchapternum{\par\vskip\midchapskip} 
+	\renewcommand\printchaptertitle[1]{\vskip-1.5\baselineskip\color{txtmod}\chaptitlefont\raggedleft ##1\par}
+	\renewcommand\afterchaptertitle{\vskip 1.5\baselineskip}
+} 
+\makeatother 
+\chapterstyle{daleifmodif}
+
+% Professional page style
+\makepagestyle{myvf} 
+\makeoddfoot{myvf}{}{\thepage}{} 
+\makeevenfoot{myvf}{}{\thepage}{} 
+\makeheadrule{myvf}{\textwidth}{\normalrulethickness} 
+\makeevenhead{myvf}{\small\textsc{\leftmark}}{}{} 
+\makeoddhead{myvf}{}{}{\small\textsc{\rightmark}}
+\pagestyle{myvf}
+
+% Add other professional packages
+\usepackage{import}
+\usepackage{amsfonts} 					%Calls Amer. Math. Soc. (AMS) fonts
+\usepackage[centertags]{amsmath}
+\usepackage{stmaryrd}					%New AMS symbols
+\usepackage{amssymb}					%Calls AMS symbols
+\usepackage{amsthm}					%Calls AMS theorem environment
+\usepackage{newlfont}					%Helpful package for fonts and symbols
+\usepackage{graphicx}					%Calls figure environment
+\usepackage{float}						%Helps to place figures, tables, etc. 
+\usepackage{verbatim}					%Permits pre-formated text insertion
+\usepackage{latexsym}					%Extra symbols
+% \usepackage[square,numbers,sort&compress]{natbib}		%Replaced with biblatex
+\usepackage[backend=biber,style=numeric,backref=true,sorting=none,pagetracker=true,citecounter=true,backrefstyle=none]{biblatex}
+\addbibresource{bibliography/references.bib}
+
+% Custom backref format: "pages 1, 2, 3, 5, 6, 7, 8" - exhaustive individual pages  
+\DeclareFieldFormat{pageref}{pages\space#1}
+
+% Disable the pageref macro since we handle it in finentry
+\renewbibmacro*{pageref}{}
+
+% Suppress original pages field to avoid redundant display
+\DeclareFieldFormat{pages}{}
+
+% Force single-line bibliography entries by removing line breaks
+\renewcommand*{\newunitpunct}{\addcomma\space}
+\renewcommand*{\newblockpunct}{\addcomma\space}
+
+% Override finentry to suppress automatic punctuation before pageref
+\renewcommand*{\finentrypunct}{}
+
+% Redefine finentry macro to control pageref placement
+\renewbibmacro*{finentry}{%
+  \iflistundef{pageref}
+    {\finentry}
+    {\addperiod\space\printtext[pageref]{\printlist[pageref][-\value{listtotal}]{pageref}}}}
+
+% Also handle articles which have different punctuation rules
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{bytranslator+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{in:}%
+  \usebibmacro{journal+issuetitle}%
+  \newunit
+  \usebibmacro{byeditor+others}%
+  \newunit
+  \printfield{pages}%
+  \newunit\newblock
+  \iftoggle{bbx:isbn}
+    {\printfield{issn}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \iflistundef{pageref}
+    {\finentry}
+    {\clearfield{namehash}\addperiod\space pages\space\printlist[pageref][-\value{listtotal}]{pageref}\finentry}}
+
+% Clean up bibliography formatting to avoid redundant page display
+\AfterEndPreamble{%
+  \defbibheading{bibliography}[\bibname]{%
+    \chapter{#1}%
+    \markboth{#1}{#1}%
+  }%
+} 
+\usepackage[english]{babel}		%For languages characters and hyphenation
+\usepackage{memhfixc}					%Must be used on memoir document class after hyperref
+\usepackage{microtype}					%Makes pdf look better.
+
+%Reduce widows and orphans 
+\widowpenalty=1000
+\clubpenalty=1000
+
+% Drop cap support
+\usepackage{lettrine}
+\usepackage[inkscapepath=build/svg-inkscape/]{svg}
+\newcommand{\initial}[1]{%
+	\lettrine[lines=3,lhang=0.33,nindent=0em]{
+		\color{txtmod}
+     		{\textsc{#1}}}{}}
+
+% Creates indexes for Table of Contents, List of Figures, List of Tables
+\makeindex
+
+% Hyperref configuration for better linking
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emblemcolor,
+    citecolor=emblemcolor,
+    urlcolor=blue,
+    filecolor=blue,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    pdftitle={Psychological Manipulation in Marketing Discourse},
+    pdfauthor={Master's Thesis - TU Darmstadt},
+    pdfsubject={Critical Discourse Analysis of Marketing Manipulation},
+    pdfkeywords={marketing, manipulation, discourse analysis, psychology}
+}
+
+\title{Psychological Manipulation in Marketing Discourse}
+\author{Master's Thesis\\TU Darmstadt}
+\date{2024}
+
+\begin{document}
+
+\setstretch{1}  %for linespacing 
+
+\frontmatter
+
+% Custom TU Darmstadt cover page
+\newpage
+\thispagestyle{empty}
+\pagecolor{emblemcolor}
+
+\vspace{4cm}
+
+% Main title - wide layout with symmetric positioning
+\noindent\hspace*{\dimexpr-\oddsidemargin-1in}%
+\begin{minipage}{\paperwidth}
+\centering
+\textcolor{white}{%
+{\fontsize{40}{48}\selectfont\bfseries Psychological Manipulation}\\[0.4cm]
+{\fontsize{40}{48}\selectfont\bfseries in Marketing Discourse}
+}
+\end{minipage}
+
+\vspace{2cm}
+
+% Author and supervisor information with wide symmetric positioning
+\noindent\hspace*{\dimexpr-\oddsidemargin-1in}%
+\begin{minipage}{\paperwidth}
+\centering
+\textcolor{white}{%
+{\fontsize{18}{22}\selectfont\bfseries Master's Thesis}\\[0.5cm]
+{\fontsize{13}{16}\selectfont Submitted by: Sukanya Dutta}\\[0.3cm]
+{\fontsize{13}{16}\selectfont Supervisor: Prof. Dr. Evelyn Gius}\\[0.3cm]
+{\fontsize{13}{16}\selectfont \today}
+}
+\end{minipage}
+
+\vspace{3cm}
+
+% Logo positioned below submission info
+\begin{textblock*}{8cm}[1,0](\paperwidth,18cm)
+\colorbox{white}{%
+\begin{minipage}{8cm}
+\vspace{0.8cm}
+\hspace{0.5cm}
+\begin{minipage}{7cm}
+\raggedright
+% TU Darmstadt logo from SVG
+\begin{center}
+\includesvg[width=6cm]{cover/uni_logo.svg}
+\end{center}
+\end{minipage}
+\vspace{0.8cm}
+\end{minipage}
+}
+\end{textblock*}
+
+% Department information in separate white box below logo
+\begin{textblock*}{8cm}[1,0](\paperwidth,22.5cm)
+\colorbox{white}{%
+\begin{minipage}{8cm}
+\vspace{0.4cm}
+\hspace{0.5cm}
+\begin{minipage}{7cm}
+\raggedright
+\begin{center}
+\textcolor{black}{\fontsize{14}{17}\selectfont\bfseries DEPARTMENT OF LINGUISTICS}\\[0.2cm]
+\textcolor{black}{\fontsize{11}{13}\selectfont Institute for Language and Communication}
+\end{center}
+\end{minipage}
+\vspace{0.4cm}
+\end{minipage}
+}
+\end{textblock*}
+
+\vfill
+
+\newpage
+\pagecolor{white}
+\clearpage
+
+% Start page numbering with roman numerals from Table of Contents
+\pagenumbering{roman}
+
+\renewcommand{\contentsname}{Table of Contents}
+\maxtocdepth{subsection}
+\hypersetup{linkcolor=tocgray}  % Make TOC entries dark gray
+\addtocontents{toc}{\par\nobreak \mbox{}\hfill{\bfseries Page}\par\nobreak}
+\tableofcontents*
+\hypersetup{linkcolor=emblemcolor}  % Restore red for cross-references
+\clearpage
+
+% The bulk of the document is delegated to these chapter files
+\mainmatter
+
+\include{chapters/chapter_1/introduction}
+\include{chapters/chapter_2/theory}
+\include{chapters/chapter_2/theory_completion}
+\include{chapters/chapter_3/literature}
+\include{chapters/chapter_4/methodology}
+\include{chapters/chapter_5/empirical_analysis}
+\include{chapters/chapter_6/discussion}
+\include{chapters/chapter_7/conclusion}
+
+% Bibliography
+\backmatter
+\refstepcounter{chapter}
+
+% Remove bibliography indentation  
+\setlength{\bibhang}{0pt}
+
+\printbibliography[title=Bibliography]
+\clearpage
+
+\end{document}

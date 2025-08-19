@@ -1,0 +1,386 @@
+
+COMBINED ANALYSIS REPORT
+============================================================
+
+Fashion SECTOR ANALYSIS
+============================================================
+
+Brands analyzed: 12
+Average text length: 141482 characters
+
+TOP MANIPULATION STRATEGIES:
+  - Fear Triggers: 94 occurrences
+  - Aspiration Appeals: 67 occurrences
+  - Emotional Blackmail: 58 occurrences
+  - Scientific Mimicry: 57 occurrences
+  - Inadequacy Triggers: 48 occurrences
+
+TOP EMOTIONS DETECTED:
+  - Fear: 59 markers
+  - Joy: 53 markers
+  - Guilt: 51 markers
+  - Pride: 46 markers
+  - Hope: 36 markers
+
+BRAND PROFILES:
+
+ARMANI:
+  Text length: 23859 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Joy
+  Top tactics:
+    - Aspiration Appeals: 6
+    - Scarcity Claims: 4
+    - Authority Appeals: 4
+
+BALENCIAGA:
+  Text length: 212528 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Pride
+  Top tactics:
+    - Fear Triggers: 11
+    - Scientific Mimicry: 8
+    - Inadequacy Triggers: 7
+
+BOTTEGAVENETA:
+  Text length: 227941 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 12
+    - Emotional Blackmail: 6
+    - Temporal Pressure: 5
+
+CELINE:
+  Text length: 155489 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 13
+    - Emotional Blackmail: 7
+    - Aspiration Appeals: 6
+
+CHANEL:
+  Text length: 82077 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Desire
+  Top tactics:
+    - Aspiration Appeals: 7
+    - Scarcity Claims: 4
+    - Social Proof: 4
+
+DIOR:
+  Text length: 274375 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Joy
+  Top tactics:
+    - Aspiration Appeals: 12
+    - Fear Triggers: 10
+    - Scientific Mimicry: 10
+
+GIVENCHY:
+  Text length: 118733 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 8
+    - Aspiration Appeals: 6
+    - Emotional Blackmail: 6
+
+HUGOBOSS:
+  Text length: 95817 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Fear
+  Top tactics:
+    - Aspiration Appeals: 9
+    - Fear Triggers: 6
+    - Authority Appeals: 5
+
+LOEWE:
+  Text length: 83327 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Joy
+  Top tactics:
+    - Fear Triggers: 7
+    - Aspiration Appeals: 4
+    - Exclusivity Markers: 4
+
+PRADA:
+  Text length: 101831 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Guilt
+  Top tactics:
+    - Fear Triggers: 9
+    - Inadequacy Triggers: 5
+    - Authority Appeals: 4
+
+VALENTINO:
+  Text length: 140362 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 7
+    - Scientific Mimicry: 6
+    - Aspiration Appeals: 5
+
+YSL:
+  Text length: 181439 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 9
+    - Emotional Blackmail: 6
+    - Inadequacy Triggers: 4
+
+
+Fitness SECTOR ANALYSIS
+============================================================
+
+Brands analyzed: 12
+Average text length: 114921 characters
+
+TOP MANIPULATION STRATEGIES:
+  - Aspiration Appeals: 91 occurrences
+  - Fear Triggers: 61 occurrences
+  - Scientific Mimicry: 60 occurrences
+  - Emotional Blackmail: 55 occurrences
+  - Social Proof: 46 occurrences
+
+TOP EMOTIONS DETECTED:
+  - Pride: 62 markers
+  - Fear: 42 markers
+  - Guilt: 38 markers
+  - Joy: 38 markers
+  - Hope: 34 markers
+
+BRAND PROFILES:
+
+ALPHALETEATHLETICS:
+  Text length: 10887 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 3
+    - Exclusivity Markers: 3
+    - Emotional Blackmail: 3
+
+DECATHLON:
+  Text length: 9679 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 5
+    - Scientific Mimicry: 3
+    - Scarcity Claims: 2
+
+GYMSHARK:
+  Text length: 442607 chars
+  Dominant strategy: Social Proof
+  Dominant emotion: Pride
+  Top tactics:
+    - Social Proof: 12
+    - Aspiration Appeals: 12
+    - Inadequacy Triggers: 11
+
+INOV8:
+  Text length: 139734 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Guilt
+  Top tactics:
+    - Fear Triggers: 8
+    - Aspiration Appeals: 8
+    - Emotional Blackmail: 7
+
+MERRELL:
+  Text length: 169623 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 9
+    - Aspiration Appeals: 9
+    - Social Proof: 7
+
+MIZUNOUSA:
+  Text length: 47325 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 10
+    - Authority Appeals: 5
+    - Scientific Mimicry: 5
+
+NIKE:
+  Text length: 208941 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 12
+    - Fear Triggers: 10
+    - Scientific Mimicry: 9
+
+ON:
+  Text length: 9673 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 4
+    - Scarcity Claims: 3
+    - Social Proof: 2
+
+PATAGONIA:
+  Text length: 237289 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 11
+    - Scientific Mimicry: 10
+    - Emotional Blackmail: 10
+
+REEBOK:
+  Text length: 21213 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 8
+    - Scientific Mimicry: 7
+    - Fear Triggers: 4
+
+ROGUEFITNESS:
+  Text length: 18402 chars
+  Dominant strategy: Scarcity Claims
+  Dominant emotion: Guilt
+  Top tactics:
+    - Scarcity Claims: 3
+    - Aspiration Appeals: 3
+    - Emotional Blackmail: 3
+
+SKECHERS:
+  Text length: 63680 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 9
+    - Scientific Mimicry: 5
+    - Scarcity Claims: 4
+
+
+Skincare_Cosmetics SECTOR ANALYSIS
+============================================================
+
+Brands analyzed: 11
+Average text length: 133079 characters
+
+TOP MANIPULATION STRATEGIES:
+  - Scientific Mimicry: 125 occurrences
+  - Fear Triggers: 93 occurrences
+  - Aspiration Appeals: 88 occurrences
+  - Authority Appeals: 87 occurrences
+  - Inadequacy Triggers: 65 occurrences
+
+TOP EMOTIONS DETECTED:
+  - Fear: 52 markers
+  - Pride: 41 markers
+  - Hope: 40 markers
+  - Joy: 38 markers
+  - Shame: 37 markers
+
+BRAND PROFILES:
+
+CERAVE:
+  Text length: 211137 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 16
+    - Authority Appeals: 13
+    - Fear Triggers: 11
+
+CHANEL:
+  Text length: 123745 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Aspiration Appeals: 13
+    - Authority Appeals: 10
+
+ESTEELAUDER:
+  Text length: 8191 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Hope
+  Top tactics:
+    - Scientific Mimicry: 5
+    - Aspiration Appeals: 4
+    - Temporal Pressure: 3
+
+EUCERINUS:
+  Text length: 92318 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Fear Triggers: 12
+    - Inadequacy Triggers: 10
+
+GERNIER:
+  Text length: 13911 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Pride
+  Top tactics:
+    - Scientific Mimicry: 8
+    - Authority Appeals: 5
+    - Aspiration Appeals: 5
+
+LAMER:
+  Text length: 12574 chars
+  Dominant strategy: Authority Appeals
+  Dominant emotion: Hope
+  Top tactics:
+    - Authority Appeals: 8
+    - Fear Triggers: 8
+    - Scientific Mimicry: 7
+
+LOREAL:
+  Text length: 18851 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 5
+    - Scientific Mimicry: 4
+    - Aspiration Appeals: 3
+
+NIVEA:
+  Text length: 547141 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 18
+    - Scientific Mimicry: 17
+    - Authority Appeals: 15
+
+OLAY:
+  Text length: 33348 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Pride
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Aspiration Appeals: 10
+    - Authority Appeals: 7
+
+PIXIBEAUTY:
+  Text length: 282648 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Joy
+  Top tactics:
+    - Aspiration Appeals: 14
+    - Scientific Mimicry: 12
+    - Inadequacy Triggers: 10
+
+THEORDINARY:
+  Text length: 120008 chars
+  Dominant strategy: Scientific Mimicry
+  Dominant emotion: Fear
+  Top tactics:
+    - Scientific Mimicry: 14
+    - Fear Triggers: 13
+    - Authority Appeals: 10

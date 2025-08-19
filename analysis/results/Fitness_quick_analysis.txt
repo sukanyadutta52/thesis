@@ -1,0 +1,130 @@
+
+Fitness SECTOR ANALYSIS
+============================================================
+
+Brands analyzed: 12
+Average text length: 114921 characters
+
+TOP MANIPULATION STRATEGIES:
+  - Aspiration Appeals: 91 occurrences
+  - Fear Triggers: 61 occurrences
+  - Scientific Mimicry: 60 occurrences
+  - Emotional Blackmail: 55 occurrences
+  - Social Proof: 46 occurrences
+
+TOP EMOTIONS DETECTED:
+  - Pride: 62 markers
+  - Fear: 42 markers
+  - Guilt: 38 markers
+  - Joy: 38 markers
+  - Hope: 34 markers
+
+BRAND PROFILES:
+
+ALPHALETEATHLETICS:
+  Text length: 10887 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 3
+    - Exclusivity Markers: 3
+    - Emotional Blackmail: 3
+
+DECATHLON:
+  Text length: 9679 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 5
+    - Scientific Mimicry: 3
+    - Scarcity Claims: 2
+
+GYMSHARK:
+  Text length: 442607 chars
+  Dominant strategy: Social Proof
+  Dominant emotion: Pride
+  Top tactics:
+    - Social Proof: 12
+    - Aspiration Appeals: 12
+    - Inadequacy Triggers: 11
+
+INOV8:
+  Text length: 139734 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Guilt
+  Top tactics:
+    - Fear Triggers: 8
+    - Aspiration Appeals: 8
+    - Emotional Blackmail: 7
+
+MERRELL:
+  Text length: 169623 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 9
+    - Aspiration Appeals: 9
+    - Social Proof: 7
+
+MIZUNOUSA:
+  Text length: 47325 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 10
+    - Authority Appeals: 5
+    - Scientific Mimicry: 5
+
+NIKE:
+  Text length: 208941 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 12
+    - Fear Triggers: 10
+    - Scientific Mimicry: 9
+
+ON:
+  Text length: 9673 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 4
+    - Scarcity Claims: 3
+    - Social Proof: 2
+
+PATAGONIA:
+  Text length: 237289 chars
+  Dominant strategy: Fear Triggers
+  Dominant emotion: Fear
+  Top tactics:
+    - Fear Triggers: 11
+    - Scientific Mimicry: 10
+    - Emotional Blackmail: 10
+
+REEBOK:
+  Text length: 21213 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 8
+    - Scientific Mimicry: 7
+    - Fear Triggers: 4
+
+ROGUEFITNESS:
+  Text length: 18402 chars
+  Dominant strategy: Scarcity Claims
+  Dominant emotion: Guilt
+  Top tactics:
+    - Scarcity Claims: 3
+    - Aspiration Appeals: 3
+    - Emotional Blackmail: 3
+
+SKECHERS:
+  Text length: 63680 chars
+  Dominant strategy: Aspiration Appeals
+  Dominant emotion: Pride
+  Top tactics:
+    - Aspiration Appeals: 9
+    - Scientific Mimicry: 5
+    - Scarcity Claims: 4

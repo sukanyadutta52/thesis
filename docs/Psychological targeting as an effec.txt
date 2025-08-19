@@ -1,0 +1,140 @@
+Psychological targeting as an effective approach to digital mass persuasion: Extraverted ad, Introverted ad, Ads worked better when they matched the user’s personality. This can be done using just a single Facebook Like — no full personal data needed.
+
+The impact of social media influencers’ bragging language styles on consumers’ attitudes toward luxury brands: The dual mediation of envy and trustworthiness: Bragging vs. Humblebragging, Versailles Literature-a modest-sounding complaint that actually shows off wealth. Humblebragging makes people feel worse toward the luxury brand. Straightforward bragging might be better than fake modesty, Self-discrepancy refers to the gap between how people see themselves (actual self) and how they want to be (ideal self) or should be (ought self). When there's a big gap (discrepancy), it creates negative emotions like shame, guilt, or envy. In social comparison, seeing others who seem “better off” can increase this gap, making people feel worse about themselves.
+
+Embodied Resistance to Persuasion in Advertising: Advertisements that elicit positive emotions (like happiness) may increase this gap by making people feel they should feel happy or look a certain way (ideal/ought), which can be manipulative., Emotions are embodied: they engage body systems like facial muscles, posture, and physiological responses, regulating facial expressions means influencing emotion itself—not just hiding it. That smile also signals action readiness—the body preparing to approach the ad, brand, or product (Frijda, 2007). 
+Ad liking, Brand liking, Purchase intention-appetitive attitudes: evaluations that are emotional, action-driven, and bodily felt
+Cognitive reappraisal – mentally reframing the ad (e.g., “It’s just a marketing trick”),
+Expressive suppression – hiding or altering facial expressions (e.g., suppressing a smile).
+Social Influence: Mimicry and Shared Emotion Regulation
+Lewinski (2015a) showed that facial expressions (especially happiness and sadness) predicted YouTube video popularity 8 months later, suggesting facial expressions influence consumer behavior over time.
+
+Exploring the Impact of Persuasion Knowledge and Parasocial Relationships on KPop Fans' Consumer Behavior in Indonesia: People like you (high PK) are:
+Less influenced by eWOM.
+Less likely to buy the product (online or offline).
+People like your friend (low PK) are:
+More influenced by eWOM.
+More likely to buy the product.
+
+When and Why Negative Emotional Appeals Work in Advertising: A Review of Research: Elaboration Likelihood Model (ELM)-Central route (logic, facts), or Peripheral route (emotions, impressions).
+| Mechanism                    | Easy Meaning                                      | Example                                                       |
+| ---------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
+| Elaboration Likelihood Model | People follow emotion-based logic                 | Sad ad makes someone quit smoking                             |
+| Self-Brand Connection        | Match between consumer & brand emotion            | Acne ad speaks directly to someone with acne                  |
+| Cognitive Dissonance         | People change behavior to reduce inner conflict   | Guilt from pollution → switches to eco-friendly products      |
+| Empathy                      | People act when they emotionally relate to others | Sad child in charity ad → person donates                      |
+| Conditional Reflection       | Repeated emotion builds habit/brand memory        | Fear + cereal ad → people associate cereal with health/safety |
+
+Based on your interest in manipulation psychology in marketing discourse and your current below-intermediate coding skills, here's a thesis approach that is both achievable and academically valuable:
+
+
+
+
+🎯 Thesis Title Suggestion
+“Manipulative Language in Skincare Product Marketing: A Discourse Analysis of Online Product Descriptions”
+
+✅ 1. Your Research Interest
+What do you want to find out?
+You want to investigate:
+
+How language is used manipulatively in skincare marketing (e.g., through exaggeration, emotional appeal, pseudo-science).
+
+Which linguistic/discursive strategies are used to influence customers psychologically.
+
+Whether these strategies differ between brands or product categories (e.g., anti-aging vs. hydration).
+
+✅ 2. Thesis Outline (Example)
+Chapter 1: Introduction
+Context: Online marketing, beauty industry
+
+Problem: Influence of language on consumer psychology
+
+Research question: “How is manipulative language used in skincare product descriptions?”
+
+Chapter 2: Theoretical Background
+Manipulation in discourse (van Dijk, Wodak)
+
+Marketing psychology (Cialdini's principles, pseudo-scientific language)
+
+Existing NLP work on persuasion and sentiment
+
+Chapter 3: Corpus & Methodology
+How the product descriptions were collected (e.g., dm.de, scraped manually or via code)
+
+Manual annotation and/or NLP-based analysis
+
+Criteria for manipulative language: exaggeration, emotional tone, scientific buzzwords
+
+Chapter 4: Analysis
+Qualitative examples of manipulation
+
+Quantitative overview: common words, adjectives, phrases
+
+Comparative insights across product types or brands
+
+Chapter 5: Discussion
+What the results tell us about marketing discourse
+
+Implications for digital literacy and consumer awareness
+
+Chapter 6: Conclusion
+Summary of findings
+
+
+| Emotion     | How It Relates to Manipulation in Advertising                                                                                           |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fear**    | Ads often trigger fear of missing out, aging, social rejection, or harm to prompt urgent action (buy, try, avoid).                      |
+| **Guilt**   | Guilt appeals make consumers feel responsible for problems (e.g., "Your skin deserves better"), pushing them to buy for relief.         |
+| **Desire**  | Desire evokes longing for beauty, success, fitness—fueling aspirational motivation tied to product benefits.                            |
+| **Hope**    | Hope gives promise of transformation or improvement, motivating consumers to believe the product can change their life.                 |
+| **Pride**   | Pride targets self-esteem and achievement—encouraging brand loyalty and status acquisition through products.                            |
+| **Shame**   | Shame appeals highlight personal inadequacies or social judgment, pushing consumers to “fix” themselves via purchase.                   |
+| **Joy**     | Joy creates positive associations, making products linked to happiness and reward, increasing appeal.                                   |
+| **Anger**   | Anger can mobilize consumers against perceived problems or competitors, sometimes triggering activism or switching brands.              |
+| **Sarcasm** | Sarcasm or irony can reveal or mock manipulation, but when used cleverly in ads, it can engage attention or subtly influence attitudes. |
+
+
+Limitations
+
+Future research
+
+4. Core References
+Teun A. van Dijk (2006) – Discourse and manipulation
+
+Robert Cialdini (2001) – Influence: The Psychology of Persuasion
+
+Chen et al. (2019) – Detecting persuasive strategies in online ads
+
+Ott et al. (2013) – Deceptive opinion spam detection using linguistic features
+
+CUSTOMER CARE
+FAQ
+Order Status
+Start a Return
+Shipping and Returns
+Contact Us
+Exclusive Offers
+E-Gift Cards
+Auto-Replenishment
+Discontinued
+Site Map
+
+high-end, low-end
+
+shared tf idf across the corpus, finding commonness
+
+Different socio-economic groups:
+
+Have different values, insecurities, and aspirations
+
+Interpret emotional appeals (e.g., guilt, fear, luxury, status) differently
+
+Are exposed to different registers of language — formal, aspirational, pragmatic, or colloquial
+
+For example:
+
+Economic Class	Manipulative Strategy	Example Phrase
+Lower-income	Fear/Guilt appeals	"Don’t risk your health — protect your family now"
+Middle-income	Value/Security appeal	"Smart skincare that works — without the luxury price"
+Upper-income	Prestige/Exclusivity	"Because luxury is a feeling, not a price tag" 
+
